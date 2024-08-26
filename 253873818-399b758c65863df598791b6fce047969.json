@@ -6,6 +6,9 @@
         { "url": "https://link4.com", "icon": "fas fa-heart", "text": "Link 4" }
     ],
     "lists": [
-        {"img":"https://cdn.beacons.ai/user_content/ARcdKFaPrqhGcic9zl4hJQDC8z52/referenced_images/00e9a8df-b27b-456a-a136-67604400be63__link-in-bio__links-block__home__db8e572e-a1e8-4ca6-95a6-6d2ce128600f__0063e4ba-f24a-4ed1-a3f0-11664f954b07__ab6e49fc-a1cb-415b-9d2d-72cb9cf17fad.jpg?t=1724090858007", "link":"", "text":""}
+        {"img":"", "link":"", "text":""},
+        {"img":"", "link":"", "text":""},
+        {"img":"", "link":"", "text":""},
+        {"img":"", "link":"", "text":""}
     ]
 }

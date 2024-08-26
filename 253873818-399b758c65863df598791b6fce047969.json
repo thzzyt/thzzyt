@@ -1,42 +1,6 @@
-{
-    "entry": [
-        {
-            "id": "253873818",
-            "hash": "399b758c65863df598791b6fce047969",
-            "requestHash": "253873818",
-            "profileUrl": "https://gravatar.com/thzzdeveloper",
-            "preferredUsername": "thzzdeveloper",
-            "thumbnailUrl": "https://0.gravatar.com/avatar/399b758c65863df598791b6fce047969",
-            "photos": [
-                {
-                    "value": "https://0.gravatar.com/avatar/399b758c65863df598791b6fce047969",
-                    "type": "thumbnail"
-                }
-            ],
-            "interests": {
-                "hidden_interests": false
-            },
-            "entity": {
-                "status": "enabled",
-                "is_public": true,
-                "created_at": 1722535217,
-                "last_login_at": 1724676284
-            },
-            "first_name": "thzz",
-            "last_name": "developer",
-            "displayName": "thzz developer",
-            "hidden_contact_info": false,
-            "allow_connect_message": false,
-            "name": {
-                "givenName": "thzz",
-                "familyName": "developer",
-                "formatted": "thzz developer"
-            },
-            "full_name": "thzz developer",
-            "hidden_wallet": false,
-            "urls": [],
-            "link_images": "show",
-            "hidden_avatar": false
-        }
-    ]
-}
+[{
+    "icon":"https://0.gravatar.com/avatar/399b758c65863df598791b6fce047969",
+    "title":"1"},
+    {"icon":https://0.gravatar.com/avatar/399b758c65863df598791b6fce047969",
+    "title":"thumbnail"
+}]

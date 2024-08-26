@@ -2,15 +2,21 @@
     "lists": [
         { 
             "title": "Lista 1",
-            "items": ["Item 1", "Item 2", "Item 3"]
+            "items": [{ "url": "https://link1.com", "icon": "fas fa-link", "text": "Link 1" },
+        { "url": "https://link2.com", "icon": "fas fa-code", "text": "Link 2" },
+        { "url": "https://link3.com", "icon": "fas fa-video", "text": "Link 3" }]
         },
         { 
             "title": "Lista 2",
-            "items": ["Item A", "Item B", "Item C"]
+            "items": [{ "url": "https://link1.com", "icon": "fas fa-link", "text": "Link 1" },
+        { "url": "https://link2.com", "icon": "fas fa-code", "text": "Link 2" },
+        { "url": "https://link3.com", "icon": "fas fa-video", "text": "Link 3" }]
         },
         { 
             "title": "Lista 3",
-            "items": ["Elemento X", "Elemento Y", "Elemento Z"]
+            "items": [{ "url": "https://link1.com", "icon": "fas fa-link", "text": "Link 1" },
+        { "url": "https://link2.com", "icon": "fas fa-code", "text": "Link 2" },
+        { "url": "https://link3.com", "icon": "fas fa-video", "text": "Link 3" }]
         }
     ]
 }

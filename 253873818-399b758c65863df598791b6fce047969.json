@@ -1,16 +1,13 @@
 {
+    "links": [
+        { "url": "https://link1.com", "icon": "fas fa-link", "text": "Link 1" }
+    ],
+    "additionalLinks": [
+        { "url": "https://link4.com", "icon": "fas fa-heart", "text": "Link 4" }
+    ],
     "lists": [
-        { 
-            "title": "Lista 1",
-            "items": ["Item 1", "Item 2", "Item 3"]
-        },
-        { 
-            "title": "Lista 2",
-            "items": ["Item A", "Item B", "Item C"]
-        },
-        { 
-            "title": "Lista 3",
-            "items": ["Elemento X", "Elemento Y", "Elemento Z"]
-        }
+        { "items": ["Item 1", "Item 2", "Item 3"] },
+        { "items": ["Item 4", "Item 5", "Item 6"] },
+        { "items": ["Item 7", "Item 8", "Item 9"] }
     ]
 }

@@ -1,14 +1,14 @@
 {
     "links": [
-        { "url": "https://bit.ly/470F5UB", "icon": "https://ugc.production.linktr.ee/c39214ab-1930-4d31-91ac-aa9e9b4b5a6b_docs-senxit.png", "text": "Sensibilidades Atualizadas da Semana (Android e iOS) Atualizadas dia 23/08" },
-        { "url": "https://bit.ly/3YOYHca", "icon": "https://ugc.production.linktr.ee/dc6dfd70-7e91-4051-ba6a-266d3e88f260_docs-senxit.png", "text": "Diverdas Sensibilidades: SEM DPI, -600, +600 +1000 e iOS" },
-         { "url": "https://www.instagram.com/channel/AbY3bOYdmDMp72sg/", "icon": "https://ugc.production.linktr.ee/8d41f4d0-7f5c-4c25-9d1c-f79072fd03e1_grupo-vip.jpeg", "text": "Canal no Instagram de Sensibilidades Diárias (Android e iOS) SEM ENCURTADOR" }
+        { "url": "https://bit.ly/470F5UB", "icon2": "https://ugc.production.linktr.ee/c39214ab-1930-4d31-91ac-aa9e9b4b5a6b_docs-senxit.png", "text": "Sensibilidades Atualizadas da Semana (Android e iOS) Atualizadas dia 23/08" },
+        { "url": "https://bit.ly/3YOYHca", "icon2": "https://ugc.production.linktr.ee/dc6dfd70-7e91-4051-ba6a-266d3e88f260_docs-senxit.png", "text": "Diverdas Sensibilidades: SEM DPI, -600, +600 +1000 e iOS" },
+         { "url": "https://www.instagram.com/channel/AbY3bOYdmDMp72sg/", "icon2": "https://ugc.production.linktr.ee/8d41f4d0-7f5c-4c25-9d1c-f79072fd03e1_grupo-vip.jpeg", "text": "Canal no Instagram de Sensibilidades Diárias (Android e iOS) SEM ENCURTADOR" }
     ],
     "additionalLinks": [
-         { "url": "https://bit.ly/3Stmzyk", "icon": "https://ugc.production.linktr.ee/28adf473-f38f-4382-b88f-8ea2537336e5_senxit.jpeg", "text": "Pack Premium Completo (iOS)" },
-         { "url": "https://bit.ly/4fsKgAw", "icon": "https://ugc.production.linktr.ee/e049852a-07ee-467d-bb1e-0b2af27cf502_docs-senxit--1-.png", "text": "Aplicativo: Ferramentas SenXit Pro (Android)" },
-         { "url": "https://bit.ly/3LO7yU0", "icon": "https://ugc.production.linktr.ee/5f3a4af4-8bd6-479f-8d59-83f333da648f_sx.jpeg", "text": "Pack Premium Completo Android (EM FORMA DE APP)" },
-        { "url": "https://bit.ly/3WU00nO", "icon": "https://ugc.production.linktr.ee/308e75a2-bd76-4d65-8ba6-288b9747b1a3_play.png", "text": "Melhores Apps para o Free Fire (Android)" }
+         { "url": "https://bit.ly/3Stmzyk", "icon2": "https://ugc.production.linktr.ee/28adf473-f38f-4382-b88f-8ea2537336e5_senxit.jpeg", "text": "Pack Premium Completo (iOS)" },
+         { "url": "https://bit.ly/4fsKgAw", "icon2": "https://ugc.production.linktr.ee/e049852a-07ee-467d-bb1e-0b2af27cf502_docs-senxit--1-.png", "text": "Aplicativo: Ferramentas SenXit Pro (Android)" },
+         { "url": "https://bit.ly/3LO7yU0", "icon2": "https://ugc.production.linktr.ee/5f3a4af4-8bd6-479f-8d59-83f333da648f_sx.jpeg", "text": "Pack Premium Completo Android (EM FORMA DE APP)" },
+        { "url": "https://bit.ly/3WU00nO", "icon2": "https://ugc.production.linktr.ee/308e75a2-bd76-4d65-8ba6-288b9747b1a3_play.png", "text": "Melhores Apps para o Free Fire (Android)" }
     ],
     "lists": [
         { "items": ["Item 1", "Item 2", "Item 3"] },

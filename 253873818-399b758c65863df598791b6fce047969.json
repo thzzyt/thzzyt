@@ -6,7 +6,10 @@
         { "url": "https://link4.com", "icon": "fas fa-heart", "text": "Link 4" }
     ],
     "lists": [
-        {"img":"https://cdn.beacons.ai/user_content/ARcdKFaPrqhGcic9zl4hJQDC8z52/referenced_images/fbac143c-4aba-487d-b41e-953ffd6a4b82__link-in-bio__links-block__home__db8e572e-a1e8-4ca6-95a6-6d2ce128600f__4c1dc4fc-add5-4ff8-adb2-1f6101b25f96__27f778e8-11b2-4803-999b-33f9915eb9c9.webp?t=1722957711218", "link":"", "text":"title"},
-        {"img":"https://cdn.beacons.ai/user_content/ARcdKFaPrqhGcic9zl4hJQDC8z52/referenced_images/fbac143c-4aba-487d-b41e-953ffd6a4b82__link-in-bio__links-block__home__db8e572e-a1e8-4ca6-95a6-6d2ce128600f__4c1dc4fc-add5-4ff8-adb2-1f6101b25f96__27f778e8-11b2-4803-999b-33f9915eb9c9.webp?t=1722957711218", "link":"", "text":"title"}
+        { "items": ["Item 1", "Item 2", "Item 3"] },
+        { "items": ["Item 4", "Item 5", "Item 6"] },
+        { "items": ["Item 7", "Item 8", "Item 9"] }
+       // {"img":"https://cdn.beacons.ai/user_content/ARcdKFaPrqhGcic9zl4hJQDC8z52/referenced_images/fbac143c-4aba-487d-b41e-953ffd6a4b82__link-in-bio__links-block__home__db8e572e-a1e8-4ca6-95a6-6d2ce128600f__4c1dc4fc-add5-4ff8-adb2-1f6101b25f96__27f778e8-11b2-4803-999b-33f9915eb9c9.webp?t=1722957711218", "link":"", "text":"title"},
+       // {"img":"https://cdn.beacons.ai/user_content/ARcdKFaPrqhGcic9zl4hJQDC8z52/referenced_images/fbac143c-4aba-487d-b41e-953ffd6a4b82__link-in-bio__links-block__home__db8e572e-a1e8-4ca6-95a6-6d2ce128600f__4c1dc4fc-add5-4ff8-adb2-1f6101b25f96__27f778e8-11b2-4803-999b-33f9915eb9c9.webp?t=1722957711218", "link":"", "text":"title"}
     ]
 }

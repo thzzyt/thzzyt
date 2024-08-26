@@ -194,7 +194,7 @@
                 link.target = '_blank';
 
                 const icon = document.createElement('i');
-                icon.className = linkData.icon || 'fas fa-link'; // Classe do ícone a partir do JSON ou padrão
+                icon.className = linkData.icon; //|| 'fas fa-link'; // Classe do ícone a partir do JSON ou padrão
                 link.appendChild(icon);
 
                 const text = document.createTextNode(linkData.text || 'Link');

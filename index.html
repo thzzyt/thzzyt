@@ -55,7 +55,7 @@
             padding: 20px;
             border-radius: 100px;
             margin-bottom: 10px;
-            font-size: 18px;
+            font-size: 14px;
             transition: background-color 0.3s;
         }
         .link:hover {
@@ -141,18 +141,20 @@
         <p>"Os puros de verdade são os SenXit"</p>
         <p>Bem-vindo à minha página de links! Aqui você encontra todos os meus conteúdos e redes sociais.</p>
         <div class="social-icons">
-            <a href="https://instagram.com/luresscripts" target="_blank">
+            <a href="https://instagram.com/" target="_blank">
                 <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://twitter.com/luresscripts" target="_blank">
+            <a href="https://twitter.com/" target="_blank">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a href="https://twitch.tv/luresscripts" target="_blank">
+            <a href="https://twitch.tv/" target="_blank">
                 <i class="fab fa-twitch"></i>
             </a>
         </div>
+        
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4513977877621808"
      crossorigin="anonymous"></script>
+        
         <!-- Primeira seção de botões -->
         <div class="links-container" id="links-container">
             <!-- Os botões serão inseridos aqui dinamicamente -->
@@ -181,6 +183,7 @@
     </div>
 
     <script>
+    
         document.addEventListener('DOMContentLoaded', function () {
             const linksContainer = document.getElementById('links-container');
             const additionalLinksContainer = document.getElementById('additional-links-container');
@@ -194,7 +197,7 @@
                 link.target = '_blank';
 
                 const icon = document.createElement('i');
-                icon.className = linkData.icon; //|| 'fas fa-link'; // Classe do ícone a partir do JSON ou padrão
+                icon.className = linkData.icon || 'fas fa-link'; // Classe do ícone a partir do JSON ou padrão
                 link.appendChild(icon);
 
                 const text = document.createTextNode(linkData.text || 'Link');
@@ -293,7 +296,9 @@
             loadContent();
         });
     </script>
-
+    
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4513977877621808"
+     crossorigin="anonymous"></script>
 
 </body>
 </html>

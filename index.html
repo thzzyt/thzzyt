@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links de Luresscripts</title>
+    <!-- Incluindo Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e2e;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 50px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #ffffff;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #b3b3b3;
+        }
+        .links-container, .additional-links-container, .lists-container {
+            margin-bottom: 20px;
+        }
+        .link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #4a4a8e;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 100px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .link:hover {
+            background-color: #6e6ebd;
+        }
+        .link i {
+            margin-right: 10px;
+        }
+        .separator-text {
+            margin: 40px 0 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .lists-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .list {
+            width: 30%;
+            background-color: #2a2a40;
+            padding: 15px;
+            border-radius: 100px;
+            text-align: left;
+            overflow-y: auto;
+            max-height: 200px;
+        }
+        .list-item {
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .horizontal-list {
+            display: flex;
+            overflow-x: auto;
+            padding: 15px;
+            background-color: #2a2a40;
+            border-radius: 8px;
+        }
+        .horizontal-list-item {
+            flex: 0 0 auto;
+            margin-right: 10px;
+            text-align: center;
+        }
+        .horizontal-list-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 5px;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #c0c0c0;
+        }
+        .embed-container {
+            margin-top: 20px;
+            display: auto;
+            justify-content: space-between;
+        }
+        .embed-container iframe {
+            max-width: 600px;
+            height: 300px;
+            width: 600%;
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="profile.jpg" alt="Foto de perfil" class="profile-pic">
+        <h1>Luresscripts</h1>
+        <p>Bem-vindo à minha página de links! Aqui você encontra todos os meus conteúdos e redes sociais.</p>
+
+        <!-- Primeira seção de botões -->
+        <div class="links-container" id="links-container">
+            <!-- Os botões serão inseridos aqui dinamicamente -->
+        </div>
+
+        <!-- Texto separador -->
+        <div class="separator-text">Confira também:</div>
+
+        <!-- Segunda seção de botões -->
+        <div class="additional-links-container" id="additional-links-container">
+            <!-- Botões adicionais serão inseridos aqui dinamicamente -->
+        </div>
+
+        <!-- Seção de listas -->
+        <div class="lists-container" id="lists-container">
+            <!-- As listas serão inseridas aqui dinamicamente -->
+        </div>
+
+        <!-- Embeds do YouTube -->
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/qcVLa5ILpEM" allowfullscreen></iframe>
+        </div>
+
+        <!-- Ícones de redes sociais -->
+        <div class="social-icons">
+            <a href="https://instagram.com/luresscripts" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/luresscripts" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://twitch.tv/luresscripts" target="_blank">
+                <i class="fab fa-twitch"></i>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const linksContainer = document.getElementById('links-container');
+            const additionalLinksContainer = document.getElementById('additional-links-container');
+            const listsContainer = document.getElementById('lists-container');
+
+            // Função para criar um botão de link
+            function createLinkButton(linkData) {
+                const link = document.createElement('a');
+                link.href = linkData.url;
+                link.className = 'link';
+                link.target = '_blank';
+
+                const icon = document.createElement('i');
+                icon.className = linkData.icon || 'fas fa-link'; // Classe do ícone a partir do JSON ou padrão
+                link.appendChild(icon);
+
+                const text = document.createTextNode(linkData.text || 'Link');
+                link.appendChild(text);
+
+                return link;
+            }
+
+            // Função para criar listas verticais
+            function createVerticalList(listData) {
+                const list = document.createElement('div');
+                list.className = 'list';
+
+                (listData.items || []).forEach(item => {
+                    const listItem = document.createElement('div');
+                    listItem.className = 'list-item';
+                    listItem.textContent = item || 'Item';
+                    list.appendChild(listItem);
+                });
+
+                return list;
+            }
+
+            // Função para criar lista horizontal com imagens
+            function createHorizontalList(listData) {
+                const list = document.createElement('div');
+                list.className = 'horizontal-list';
+
+                (listData.items || []).forEach(item => {
+                    const listItem = document.createElement('div');
+                    listItem.className = 'horizontal-list-item';
+
+                    const link = document.createElement('a');
+                    link.href = item.url || '#';
+                    link.target = '_blank';
+
+                    const img = document.createElement('img');
+                    img.src = item.img || 'placeholder.png'; // Substitua por uma imagem padrão, se necessário
+                    img.alt = item.text || 'Imagem';
+
+                    link.appendChild(img);
+                    listItem.appendChild(link);
+
+                    const caption = document.createElement('div');
+                    caption.textContent = item.text || 'Link';
+                    listItem.appendChild(caption);
+
+                    list.appendChild(listItem);
+                });
+
+                return list;
+            }
+
+            // Função para carregar links e listas do JSON
+            function loadContent() {
+                fetch('https://raw.githubusercontent.com/thzzyt/thzzyt/main/253873818-399b758c65863df598791b6fce047969.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Erro na rede: ' + response.statusText);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        // Carregar os primeiros links
+                        data.links.forEach(linkData => {
+                            const linkButton = createLinkButton(linkData);
+                            linksContainer.appendChild(linkButton);
+                        });
+
+                        // Carregar os links adicionais
+                        data.additionalLinks.forEach(linkData => {
+                            const linkButton = createLinkButton(linkData);
+                            additionalLinksContainer.appendChild(linkButton);
+                        });
+
+                        // Carregar as listas
+                        data.lists.forEach((listData, index) => {
+                            //if (index < 2) {
+                                // Criar listas verticais
+                                //const list = createVerticalList(listData);
+                               // listsContainer.appendChild(list);
+                            //} else {
+                                // Criar lista horizontal
+                                //const horizontalList = createHorizontalList(listData);
+                               // listsContainer.appendChild(horizontalList);
+                           // }
+                        });
+                    })
+                    .catch(error => console.error('Erro ao carregar o conteúdo:', error));
+            }
+
+            // Car
+
+
+            // Carregar o conteúdo ao iniciar a página
+            loadContent();
+        });
+    </script>
+
+
+</body>
+</html>

@@ -6,9 +6,6 @@
         { "url": "https://link4.com", "icon": "fas fa-heart", "text": "Link 4" }
     ],
     "lists": [
-        {"img":"", "link":"", "text":""},
-        {"img":"", "link":"", "text":""},
-        {"img":"", "link":"", "text":""},
-        {"img":"", "link":"", "text":""}
+        { "items": [{"img":"", "link":"", "text":""}] }
     ]
 }
